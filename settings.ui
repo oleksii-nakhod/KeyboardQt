@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QDialog" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources/resources.qrc">
+    <normaloff>:/keyboard_fill.png</normaloff>:/keyboard_fill.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_lettersmode">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Letters Used Mode</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="button_auto">
+     <property name="text">
+      <string>Automatic</string>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup_2</string>
+     </attribute>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="button_manual">
+     <property name="text">
+      <string>Manual</string>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup_2</string>
+     </attribute>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="13">
+      <widget class="QPushButton" name="button_k">
+       <property name="minimumSize">
+        <size>
+         <width>23</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="button_s">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>S</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="button_n">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>N</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="13">
+      <widget class="QPushButton" name="button_x">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QPushButton" name="button_r">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>R</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="button_p">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>P</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="15">
+      <widget class="QPushButton" name="button_m">
+       <property name="minimumSize">
+        <size>
+         <width>23</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>M</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="14">
+      <widget class="QPushButton" name="button_y">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Y</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="9">
+      <widget class="QPushButton" name="button_g">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>G</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="10">
+      <widget class="QPushButton" name="button_h">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>H</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="12">
+      <widget class="QPushButton" name="button_w">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>W</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="12">
+      <widget class="QPushButton" name="button_j">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="button_b">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>B</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="button_d">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>D</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="9">
+      <widget class="QPushButton" name="button_t">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="button_e">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>E</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="10">
+      <widget class="QPushButton" name="button_u">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>U</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="button_a">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="11">
+      <widget class="QPushButton" name="button_i">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>I</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="button_o">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>O</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="button_q">
+       <property name="minimumSize">
+        <size>
+         <width>23</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="button_c">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>C</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="11">
+      <widget class="QPushButton" name="button_v">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>V</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="14">
+      <widget class="QPushButton" name="button_l">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>L</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="button_f">
+       <property name="minimumSize">
+        <size>
+         <width>23</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>F</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="15">
+      <widget class="QPushButton" name="button_z">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Z</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Typing Mode</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="button_strict">
+     <property name="text">
+      <string>Strict</string>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup_3</string>
+     </attribute>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="button_simple">
+     <property name="text">
+      <string>Simple</string>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup_3</string>
+     </attribute>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_wordsamount">
+     <property name="text">
+      <string>Words Amount</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSlider" name="slider_wordsamount">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkbox_focus">
+     <property name="text">
+      <string>Letter Focus</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Settings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Settings</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_3"/>
+ </buttongroups>
+</ui>

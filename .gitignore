@@ -1,0 +1,17 @@
+# Qt Creator specific
+*.pro.user
+
+# Build output
+debug/
+release/
+
+# Object files
+*.o
+*.obj
+
+# Temporary files
+*~
+*.bak
+
+settings.txt
+letter_stats.txt
