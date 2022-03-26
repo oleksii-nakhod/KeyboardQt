@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>info.png</file>
+        <file>settings.png</file>
+        <file>words_1000.txt</file>
+        <file>keyboard.png</file>
+        <file>keyboard_fill.png</file>
+        <file>reload.png</file>
+        <file>hand_placement.png</file>
+    </qresource>
+</RCC>
